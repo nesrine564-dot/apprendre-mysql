@@ -1,0 +1,5 @@
+ALTER TABLE evenement
+ADD annule BOOLEAN NOT NULL DEFAULT FALSE;
+
+ALTER TABLE evenement
+ADD categories BIT(10) NOT NULL DEFAULT 0;

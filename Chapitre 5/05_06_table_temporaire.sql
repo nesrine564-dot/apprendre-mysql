@@ -1,0 +1,9 @@
+CREATE TABLE evenement2
+SELECT * FROM evenement LIMIT 0;
+
+CREATE TEMPORARY TABLE temp1
+SELECT * FROM evenement;
+
+SELECT * FROM temp1;
+
+DROP TABLE temp1;

@@ -1,0 +1,9 @@
+SELECT 1 FROM DUAL;
+
+SELECT *
+FROM contact
+LIMIT 10, 10;
+
+SELECT *
+FROM contact c
+NATURAL JOIN inscription i;
